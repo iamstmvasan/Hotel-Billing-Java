@@ -6,5 +6,5 @@
 * Billing
 * Main
 ----
-![Hotel Menu Card](/path/to/img.jpg "title")
-![Hotel Bill](/path/to/img.jpg "title")
+![Hotel Menu Card](https://github.com/iamstmvasan/Hotel-Billing-Java/blob/main/src/menucard.PNG "Hotel Menu card")
+![Hotel Bill](https://github.com/iamstmvasan/Hotel-Billing-Java/blob/main/src/bill.PNG "Hotel Bill")
