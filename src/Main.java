@@ -28,7 +28,7 @@ public class Main {
         //creating a anonymous Object for HotelMenu it display Hotel Menu card
         new HotelMenu();
         while (flag) {
-            System.out.println("Enter your order Id : ");
+            System.out.println("Enter your order Id [Same as Menu card]: ");
             //Getting Food Id from user
             String Id = br.readLine();
             System.out.println("-------------------------------------------------------------------------");
@@ -55,7 +55,7 @@ public class Main {
                     break;
                 }
             }
-            System.out.println("Enter your order Quantity : ");
+            System.out.println("Enter your order Quantity [In numbers]: ");
             int qty = 1;
             try{
                 qty = Integer.valueOf(br.readLine());
@@ -89,7 +89,7 @@ public class Main {
                 ch = Integer.valueOf(br.readLine());
 
             }catch (NumberFormatException exe){
-                System.out.println("Invalid choice, Program terminate");
+                System.out.println("Invalid Entry, Program terminate");
                 break;
             }
 
